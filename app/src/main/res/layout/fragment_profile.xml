@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yellowside1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_yellow1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgpaws3"
+        android:layout_alignLeft="@+id/img_yellow1"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_paws3"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_paws3"
+        android:src="@drawable/steven_profile"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/steven_pic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steven_pic"
+        android:text="Groomer Profile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:id="@+id/txt_profile"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangleorange"
+        android:layout_below="@+id/txt_profile"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rectanglesorange1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_profile"
+        android:text="Name: Steven William"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:id="@+id/txt_groomername"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_groomername"
+        android:text="Age: 25"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/txt_groomerage"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_groomerage"
+        android:text="Fee: 250.000,-"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:id="@+id/txt_groomerfee"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_groomerfee"
+        android:text="Experience: 3 Years"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:id="@+id/txt_groomerexp"
+        />
+
+</RelativeLayout>

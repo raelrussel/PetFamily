@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:id="@+id/containerlayout">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yellowside1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_yellow1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgpaws3"
+        android:layout_alignLeft="@+id/img_yellow1"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_paws3"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Good Morning, User!"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:id="@+id/text_user1"
+        />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rectangleorange"
+        android:layout_below="@+id/text_user1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rectanglesorange"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_user1"
+        android:text="Happy Pet World Day!"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:textSize="20dp"
+        android:id="@+id/text_user2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_user2"
+        android:text="Save Up to 25% for Grooming!"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/prodisplayitalic"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/text_user3"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bluedog"
+        android:layout_below="@id/text_user1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/blue_dog"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangleorange2"
+        android:layout_below="@id/rectanglesorange"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/rectanglesorange2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet Our Groomers"
+        android:layout_below="@+id/rectanglesorange"
+        android:fontFamily="@font/prodisplaybold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/text_user4"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/smallrectangle"
+        android:layout_below="@+id/text_user4"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/small_rectangle1"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/smallrectangle"
+        android:layout_below="@+id/text_user4"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/small_rectangle2"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/smallrectangle"
+        android:layout_below="@+id/text_user4"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/small_rectangle3"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/smallrectangle"
+        android:layout_below="@+id/text_user4"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/small_rectangle4"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/steven_profile"
+        android:layout_below="@id/text_user4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/steven_pic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steven William"
+        android:layout_below="@+id/steven_pic"
+        android:fontFamily="@font/prodisplaybold"
+        android:textSize="12dp"
+        android:layout_marginLeft="83dp"
+        android:id="@+id/text_user5"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kaliejenner_profile"
+        android:layout_below="@id/text_user4"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/kalie_profile"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kalie_profile"
+        android:text="Kalie Jenner"
+        android:layout_marginLeft="252dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:textSize="12dp"
+        android:id="@+id/text_user6"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/travis_profile"
+        android:layout_below="@+id/text_user5"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/travis_profile"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travis Scott"
+        android:layout_below="@+id/travis_profile"
+        android:fontFamily="@font/prodisplaybold"
+        android:textSize="12dp"
+        android:layout_marginLeft="93dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/natasha_profile"
+        android:layout_below="@+id/text_user5"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/natasha_profile"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/natasha_profile"
+        android:text="Natasha Wisona"
+        android:textSize="12dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:layout_marginLeft="240dp"
+        />
+
+</RelativeLayout>

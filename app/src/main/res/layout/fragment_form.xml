@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/back"
+        android:id="@+id/F_img6"
+        />
+
+    <ImageView
+        android:id="@+id/F_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/asset2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asset3"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/F_img2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asset4"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/F_img2"
+        android:padding="20dp"
+        android:id="@+id/F_img3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/F_img2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="120dp"
+        android:src="@drawable/asset5"
+        android:id="@+id/F_img4"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/assetdog1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/F_img4"
+        android:layout_marginTop="30dp"
+        android:id="@+id/F_img5" />
+
+    <TextView
+        android:id="@+id/F_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/F_img4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="PLEASE FILL OUT THE FORM!"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asset6"
+        android:layout_alignParentRight="true"
+        android:id="@+id/F_img7"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asset7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-20dp"
+        android:id="@+id/F_img8"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/F_img7"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/asset8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/F_img7"
+        android:layout_marginTop="80dp"
+        android:id="@+id/F_img9"/>
+
+
+    <TextView
+        android:id="@+id/F_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/F_img5"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="Your Pet's Name"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="341dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/F_txt2"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:hint="Name*"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/F_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Breed"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_breed"
+        android:layout_width="341dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/F_txt3"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:hint="Breed"
+        android:paddingLeft="10dp" />
+
+
+    <TextView
+        android:id="@+id/F_txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_breed"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Select Date"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_date"
+        android:layout_width="341dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/F_txt5"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:hint="Select date "
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/F_txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_date"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Select Groomer"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_groomer"
+        android:layout_width="341dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/F_txt6"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:hint="Select Groomer"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:text="Next"
+        android:layout_below="@id/txt_groomer"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:width="200dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_Login"/>
+
+</RelativeLayout>

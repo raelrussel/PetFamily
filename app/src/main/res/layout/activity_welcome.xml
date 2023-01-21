@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frameyellow"
+        android:layout_alignParentTop="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/screenshot3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:text="Your Pet"
+        android:layout_alignLeft="@id/img_2"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/assasin"
+        android:textSize="35dp"
+        android:id="@+id/txt_1"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="Care Center"
+        android:layout_alignRight="@id/img_2"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/assasin"
+        android:textSize="30dp"
+        android:id="@+id/txt_2"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_2"
+        android:layout_above="@id/txt_2"
+        android:layout_alignRight="@id/txt_2"
+        />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_below="@id/txt_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:background="#FFEBAD"
+        />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_below="@id/btnSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/prodisplaybold"
+        android:background="#FFEBAD"
+        />
+
+</RelativeLayout>
